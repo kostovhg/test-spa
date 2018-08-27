@@ -1,0 +1,44 @@
+body {
+    /* background: rgba(240, 240, 210, 0.5); */
+    background: rgba(245, 255, 255, 0.5);
+}
+
+/* #layout {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+#layout.fade-out {
+    opacity: 0;
+    transition: none;
+} */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-shadow: 0 0 3px rgba(200, 200, 200, 0.75);
+}
+
+#languageSelect {
+    border-color: none;
+    margin-left: 5%;
+    font-size: 0.75rem;
+}
+
+#languageSelect .dropdown-menu.show {
+    min-width: 1rem;
+}
+
+body div.container {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.card-img-top {
+    height: 20%;
+    object-fit: contain;
+}

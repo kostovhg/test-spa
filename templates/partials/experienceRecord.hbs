@@ -1,0 +1,18 @@
+{{! "company": "company-address" "company-website" "company-contacts" "company-logo" "company-busines" "job-title" "date-started"
+"date-ended" "job-description" "other-notes" }}
+
+<!-- Experience card -->
+<div class="card border-success mb-3" style="max-width: 18rem; min-width: 10rem;">
+    <img class="card-img-top" src="{{company-logo}}" alt="{{company}}">
+    <div class="card-header bg-transparent border-success">{{company-business}}</div>
+    <div class="card-body text-success">
+        <h5 class="card-title">{{job-title}}</h5>
+        <p class="card-text">{{other-notes}}</p>
+        <p class="card-text"><small class="text-muted">From {{date-started}}</small></p>
+        <p class="card-text"><small class="text-muted">Till {{date-ended}}</small></p>
+    </div>
+    <div class="card-footer bg-transparent border-success text-muted">
+        <small>If you like to know</small>
+        <button class="btn btn-outline-success btn-sm">More</button>
+    </div>
+</div>

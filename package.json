@@ -1,0 +1,22 @@
+{
+  "name": "folio",
+  "version": "0.0.1",
+  "description": "Working version of portfolio",
+  "main": "./js/app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "kostovhg",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

@@ -1,0 +1,108 @@
+{
+    "currentLanguage": "en",
+    "nav":
+    {
+        "about": "about",
+        "experience": "experience",
+        "skills": "skills",
+        "education": "education",
+        "projects": "projects",
+        "contact": "contact"
+    },
+    "about": {
+        "name": "Hristo Kostov",
+        "occupation": "Mechanical Engineer - Studying for Java Web Developer",
+        "trivia": "Adoring that small part of the human nature that has drawn our spices from the caves, connected with the love of knowledge, creation and sharing."
+    },
+    "experience": [
+        {
+            "company": "Kostenets-HHI",
+            "company-address": "2 Saedinenie Str, 2030 Kostenets",
+            "company-website": "#",
+            "company-contacts": "does not have permission for this",
+            "company-logo": "images/hhi.jpg",
+            "company-business": "Paper production",
+            "job-title": "Special questions specialist",
+            "date-started": "2000-10-15",
+            "date-ended": "2001-01-20",
+            "job-description": "They say 'Jump', you say 'How hight?'..",
+            "other-notes": "I cant think of"
+        },
+        {
+            "company": "ECOBULPACK",
+            "company-address": "Sofia, 9-th patatoes belt",
+            "company-website": "#",
+            "company-contacts": "does not have permission for this",
+            "company-logo": "images/ecobul.gif",
+            "company-business": "Waste treatment",
+            "job-title": "Special questions specialist",
+            "date-started": "2000-10-15",
+            "date-ended": "2001-01-20",
+            "job-description": "They say 'Jump', you say 'How hight?'..",
+            "other-notes": "I cant think of"
+        },
+        {
+            "company": "Kostenets-HHI",
+            "company-address": "2 Saedinenie Str, 2030 Kostenets",
+            "company-website": "#",
+            "company-contacts": "does not have permission for this",
+            "company-logo": "images/hhi.jpg",
+            "company-business": "Paper production",
+            "job-title": "Special questions specialist",
+            "date-started": "2000-10-15",
+            "date-ended": "2001-01-20",
+            "job-description": "They say 'Jump', you say 'How hight?'..",
+            "other-notes": "I cant think of"
+        },
+        {
+            "company": "Kostenets Paper Mill",
+            "company-address": "2 Saedinenie Str, 2030 Kostenets",
+            "company-website": "#",
+            "company-contacts": "does not have permission for this",
+            "company-logo": "images/kkpm.png",
+            "company-business": "Paper production",
+            "job-title": "Special questions specialist",
+            "date-started": "2000-10-15",
+            "date-ended": "2001-01-20",
+            "job-description": "They say 'Jump', you say 'How hight?'..",
+            "other-notes": "I cant think of"
+        }
+    ],
+    "skills": [
+        {
+            "skillName": "HTML",
+            "level": "15"
+        },
+        {
+            "skillName": "CSS",
+            "level": "10"
+        },
+        {
+            "skillName": "JavaScript",
+            "level": "25"
+        },
+        {
+            "skillName": "Coffee",
+            "level": "75"
+        },
+        {
+            "skillName": "Smoking",
+            "level": "100"
+        }
+    ],
+    "education": [
+        {
+            "name": "SoftUni",
+            "description": "Bla bla bla for SoftUni. And some content that describes what I have studied there"
+        },
+        {
+            "name": "Technical University",
+            "description": "Bla bla bla some content that describes what I have studied there"
+        },
+        {
+            "name": "School for electricity and electronics",
+            "description": "Bla bla bla some content that describes what I have studied there"
+        }
+    ]
+
+}

@@ -1,0 +1,24 @@
+$padding: 6px;
+$bgcolor: rgb(214, 252, 240);
+
+body {
+    background-color: $bgcolor;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: $padding;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: $padding 12px;
+        text-decoration: none;
+    }
+}

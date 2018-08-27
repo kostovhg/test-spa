@@ -1,0 +1,17 @@
+<!-- Education Section -->
+<div class="container text-center">
+    <h1 class="text-uppercase mb-0">{{nav.education}}</h1>
+    <hr class="star-light">
+    <div class="education">
+        {{#if education}}
+        <ul class="nav nav-tabs" id="education" role="tablist">
+            {{#each education}} {{>eduTab}} {{/each}}
+        </ul>
+        <div class="tab-content" id="educationContent">
+            {{#each education}} {{>edu}} {{/each}}
+        </div>
+        {{else}}
+        <h3>This person is practically without education</h3>
+        {{/if}}
+    </div>
+</div>

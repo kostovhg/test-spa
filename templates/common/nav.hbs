@@ -1,0 +1,48 @@
+!<!-- Navigation -->
+<nav class="navbar navbar-dark bg-primary navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="#/">kostovhg</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item {{#if about}}active{{/if}}">
+                <a class="nav-link" href="#/about">{{nav.about}}
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item {{#if experience}}active{{/if}}">
+                <a class="nav-link" href="#/experience">{{nav.experience}}</a>
+            </li>
+            <li class="nav-item {{#if skills}}active{{/if}}">
+                <a class="nav-link" href="#/skills">{{nav.skills}}</a>
+            </li>
+            <li class="nav-item {{#if education}}active{{/if}}">
+                <a class="nav-link" href="#/education">{{nav.education}}</a>
+            </li>
+            <li class="nav-item {{#if projects}}active{{/if}}">
+                <a class="nav-link disabled" href="#">{{nav.projects}}</a>
+            </li>
+            <li class="nav-item {{#if contact}}active{{/if}}">
+                <a class="nav-link" href="#/contact">{{nav.contact}}</a>
+            </li> 
+        </ul>
+    </div>
+
+    <div id="languageSelect">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle small" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="display: inline-block;">
+                {{currentLanguage}}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item btn" href="#/en">en</a>
+                <a class="dropdown-item btn" href="#/bg">bg</a>
+            </div>
+        </li>
+    </div>
+
+
+</nav>
